@@ -12,9 +12,10 @@ def luas_persegi_panjang(panjang,lebar):
 print(luas_persegi_panjang(30,40))
 
 angka = [1,2,3,4,5,6,7,8,9,10]
-for i in range(len(angka)):
+for i in range(len(angka)): #bisa langsung pakai for i in angka untuk lebih clean 90/100
   if angka[i] % 2 == 0:
     print(angka[i])
 
+
 Mahasiswa = {"nama" : "Shada", "nim" : "247","jurusan" : "Informatika"}
-print(Mahasiswa)
+print(Mahasiswa) #bisa dirapikan dengan print(f"{Mahasiswa['nama']} - {Mahasiswa['nim']} - {Mahasiswa['jurusan']}")95/100
